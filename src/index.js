@@ -21,7 +21,7 @@ app.use(express.urlencoded({ extended: true, limit: '5mb' }));
 app.use(cookieParser());
 app.use(
   cors({
-    origin: ["http://localhost:5173","https://chatter-box-frontendd.vercel.app"],    
+    origin: ["http://localhost:5173","https://chatter-box-frontend-m35m.vercel.app"],    
     methods: ["GET", "POST","PUT","DELETE","PATCH"],
     credentials: true,
   })
